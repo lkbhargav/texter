@@ -6,7 +6,7 @@ use aws_credential_types::{
 use aws_sdk_sns::client::Client;
 use aws_types::region::Region;
 
-struct Texter {
+pub struct Texter {
     sns_client: Client,
 }
 

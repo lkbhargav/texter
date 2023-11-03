@@ -36,7 +36,7 @@ This is a simple wrapper around aws-sdk-sns functions to help you publish text/t
             "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": "sns:Publish",
-            "Resource": <valid-topic-arn>
+            "Resource": "*"
         }
     ]
 }
